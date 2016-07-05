@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background: #CBDDEA;
+}
+
+.cloud {
+  background: #FFF;
+  width: 200px;
+  height: 60px;
+  border-radius: 100px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.cloud:before, .cloud:after {
+  content: '';
+  position: absolute;
+  background: #FFF;
+}
+
+.cloud:before {
+  height: 80px;
+  top: -15px;
+  border-radius: 100px;
+}
+
+.cloud:after {
+  top: -55px;
+  border-radius: 100px;
+}
+
+.c1:before, .c3:before, .c4:before {
+  width: 100px;
+  left: 10px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.c2:before, .c5:before, .c6:before {
+  width: 120px;
+  left: 20px;
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+.c1:after, .c3:after, .c4:after {
+  width: 120px;
+  height: 120px;
+  right: 15px;
+}
+
+.c2:after, .c5:after, .c6:after {
+  width: 90px;
+  height: 140px;
+  right: 20px;
+}
