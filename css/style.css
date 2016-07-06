@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-header {
+body {
   background: #CBDDEA;
 }
 
@@ -258,4 +258,24 @@ header {
     -webkit-transform: translateX(-200px) scale(.95);
     transform: translateX(-200px) scale(.95);
   }
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Fredoka One', cursive;
+  color: #FFFFD9;
+}
+
+h1 {
+  font-size: 7rem;
+  color: #FFEA80;
+text-shadow: #fdb609 1px 1px, #fbb713 2px 2px, #f9b91c 3px 3px, #f7bb25 4px 4px, #f5bc2f 5px 5px, #f3be38 6px 6px, #f0bf42 7px 7px, #eec14b 8px 8px, #ecc354 9px 9px, #eac45e 10px 10px, #e8c667 11px 11px, #e6c870 12px 12px, #e4c97a 13px 13px, #e2cb83 14px 14px, #e0cd8c 15px 15px, #dece96 16px 16px, #dcd09f 17px 17px, #dad2a8 18px 18px, #d7d3b2 19px 19px, #d5d5bb 20px 20px, #d3d6c5 21px 21px, #d1d8ce 22px 22px, #cfdad7 23px 23px, #cddbe1 24px 24px, #cbddea 25px 25px, #FFB400 0px 0px;
+}
+.path {
+  font-size: 5rem;
+  text-shadow: #fab817 1px 1px, #f5bc2f 2px 2px, #efc046 3px 3px, #eac45e 4px 4px, #e5c975 5px 5px, #e0cd8c 6px 6px, #dbd1a4 7px 7px, #d5d5bb 8px 8px, #d0d9d3 9px 9px, #cbddea 10px 10px, #FFB400 0px 0px;
 }
