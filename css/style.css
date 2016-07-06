@@ -59,6 +59,7 @@ header {
 }
 
 .c1 {
+  top: 50px;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   -webkit-animation: c1 15s linear infinite;
@@ -66,39 +67,47 @@ header {
 }
 
 .c2 {
+  opacity: 0.9;
   -webkit-transform: scale(.8);
   transform: scale(.8);
-  -webkit-animation: c2 15s linear infinite;
-  animation: c2 15s linear infinite;
+  -webkit-animation: c2 25s linear infinite;
+  animation: c2 25s linear infinite;
 
 }
 
 .c3 {
+  opacity: 0.6;
   -webkit-transform: scale(.9);
   transform: scale(.9);
-  -webkit-animation: c3 15s linear infinite;
-  animation: c3 15s linear infinite;
+  -webkit-animation: c3 20s linear infinite;
+  animation: c3 20s linear infinite;
 }
 
 .c4 {
+  top: -300px;
+  opacity: 0.7;
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
-  -webkit-animation: c4 15s linear infinite;
-  animation: c4 15s linear infinite;
+  -webkit-animation: c4 18s linear infinite;
+  animation: c4 18s linear infinite;
 }
 
 .c5 {
+  top: -250px;
+  opacity: 0.70;
   -webkit-transform: scale(1.4);
   transform: scale(1.4);
-  -webkit-animation: c5 15s linear infinite;
-  animation: c5 15s linear infinite;
+  -webkit-animation: c5 22s linear infinite;
+  animation: c5 22s linear infinite;
 }
 
 .c6 {
+  top: -400px;
+  opacity: 0.9;
   -webkit-transform: scale(.95);
   transform: scale(.95);
-  -webkit-animation: c6 15s linear infinite;
-  animation: c6 15s linear infinite;
+  -webkit-animation: c6 16s linear infinite;
+  animation: c6 16s linear infinite;
 }
 
 /*@-webkit-keyframes move-clouds {
