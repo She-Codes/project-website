@@ -3,7 +3,13 @@
 }
 
 body {
-  background: #CBDDEA;
+  background: #ABDCFF;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .cloud {
@@ -270,12 +276,83 @@ body {
   color: #FFFFD9;
 }
 
-h1 {
+.home h1 {
   font-size: 7rem;
   color: #FFEA80;
-text-shadow: #fdb609 1px 1px, #fbb713 2px 2px, #f9b91c 3px 3px, #f7bb25 4px 4px, #f5bc2f 5px 5px, #f3be38 6px 6px, #f0bf42 7px 7px, #eec14b 8px 8px, #ecc354 9px 9px, #eac45e 10px 10px, #e8c667 11px 11px, #e6c870 12px 12px, #e4c97a 13px 13px, #e2cb83 14px 14px, #e0cd8c 15px 15px, #dece96 16px 16px, #dcd09f 17px 17px, #dad2a8 18px 18px, #d7d3b2 19px 19px, #d5d5bb 20px 20px, #d3d6c5 21px 21px, #d1d8ce 22px 22px, #cfdad7 23px 23px, #cddbe1 24px 24px, #cbddea 25px 25px, #FFB400 0px 0px;
+  text-shadow: #fcb60a 1px 1px, #f8b714 2px 2px, #f5b91f 3px 3px, #f2ba29 4px 4px, #eebc33 5px 5px, #ebbe3d 6px 6px, #e7bf47 7px 7px, #e4c152 8px 8px, #e1c25c 9px 9px, #ddc466 10px 10px, #dac670 11px 11px, #d7c77a 12px 12px, #d3c985 13px 13px, #d0ca8f 14px 14px, #cdcc99 15px 15px, #c9cea3 16px 16px, #c6cfad 17px 17px, #c3d1b8 18px 18px, #bfd2c2 19px 19px, #bcd4cc 20px 20px, #b8d6d6 21px 21px, #b5d7e0 22px 22px, #b2d9eb 23px 23px, #aedaf5 24px 24px, #abdcff 25px 25px, #FFB400 0px 0px;
 }
+
 .path {
   font-size: 5rem;
-  text-shadow: #fab817 1px 1px, #f5bc2f 2px 2px, #efc046 3px 3px, #eac45e 4px 4px, #e5c975 5px 5px, #e0cd8c 6px 6px, #dbd1a4 7px 7px, #d5d5bb 8px 8px, #d0d9d3 9px 9px, #cbddea 10px 10px, #FFB400 0px 0px;
+  text-shadow: #f7b81a 1px 1px, #eebc33 2px 2px, #e6c04d 3px 3px, #ddc466 4px 4px, #d5c880 5px 5px, #cdcc99 6px 6px, #c4d0b3 7px 7px, #bcd4cc 8px 8px, #b3d8e6 9px 9px, #abdcff 10px 10px, #FFB400 0px 0px;
+}
+
+blockquote {
+  color: #4FA2FD;
+}
+
+/* Interior Pages */
+.project-page h1 {
+  color: #7479CC;
+  font-size: 2.5rem;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+
+.laptop {
+  width: 565px;
+  height: 300px;
+  border-radius: 12px 12px 0 0;
+  position: relative;
+  background: #ded9d5;
+  border: 12px solid #FFFAEB;
+  margin: 0 auto;
+}
+
+.laptop:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: rgba(117, 115, 107, 0.49);
+  top: -9px;
+}
+
+.laptop > div {
+  position: absolute;
+}
+
+.bottom {
+  width: 680px;
+  height: 14px;
+  bottom: -26px;
+  left: 50%;
+  background: #F3EEE1;
+  border-radius: 0 0 27px 27px;
+  margin-left: -340px;
+}
+
+.bottom:before {
+  content: "";
+  position: absolute;
+  width: 62px;
+  height: 3px;
+  left: 50%;
+  top: 0;
+  margin-left: -31px;
+  border-radius: 0 0 5px 5px;
+  background: #fff;
+}
+
+.shadow {
+  width: 950px;
+  height: 15px;
+  bottom: -35px;
+  left: 50%;
+  margin-left: -475px;
+  z-index: -1;
+  background: radial-gradient(ellipse at center, #8eb6d2 0%,#8eb6d2 53%,#8eb6d2 55%,#abdcff 55%,#abdcff 100%);
 }
