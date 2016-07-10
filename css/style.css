@@ -52,9 +52,33 @@ label[for="menu"] i {
 
 .home label[for="menu"] i {
   color: #FFEA80;
+  -webkit-animation: menu-icon 7s linear infinite;
+  animation: menu-icon 7s linear infinite;
 }
 
+@-webkit-keyframes menu-icon {
+  0% {
+    color: #FFF760;
+  }
+  50% {
+    color: #F47C1A;
+  }
+  100% {
+    color: #FFF760;
+  }
+}
 
+@keyframes menu-icon {
+  0% {
+    color: #FFF760;
+  }
+  50% {
+    color: #F47C1A;
+  }
+  100% {
+    color: #FFF760;
+  }
+}
 
 .menu a {
   display: block;
