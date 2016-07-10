@@ -276,8 +276,13 @@ body {
   color: #FFFFD9;
 }
 
-.home h1 {
-  font-size: 7rem;
+.content h1, .content .path, 
+blockquote p {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 7.5rem;
   color: #FFEA80;
   text-shadow: #fcb60a 1px 1px, #f8b714 2px 2px, #f5b91f 3px 3px, #f2ba29 4px 4px, #eebc33 5px 5px, #ebbe3d 6px 6px, #e7bf47 7px 7px, #e4c152 8px 8px, #e1c25c 9px 9px, #ddc466 10px 10px, #dac670 11px 11px, #d7c77a 12px 12px, #d3c985 13px 13px, #d0ca8f 14px 14px, #cdcc99 15px 15px, #c9cea3 16px 16px, #c6cfad 17px 17px, #c3d1b8 18px 18px, #bfd2c2 19px 19px, #bcd4cc 20px 20px, #b8d6d6 21px 21px, #b5d7e0 22px 22px, #b2d9eb 23px 23px, #aedaf5 24px 24px, #abdcff 25px 25px, #FFB400 0px 0px;
 }
@@ -285,10 +290,33 @@ body {
 .path {
   font-size: 5rem;
   text-shadow: #f7b81a 1px 1px, #eebc33 2px 2px, #e6c04d 3px 3px, #ddc466 4px 4px, #d5c880 5px 5px, #cdcc99 6px 6px, #c4d0b3 7px 7px, #bcd4cc 8px 8px, #b3d8e6 9px 9px, #abdcff 10px 10px, #FFB400 0px 0px;
+  padding-bottom: .2em;
+}
+
+.path span {
+  white-space: nowrap;
 }
 
 blockquote {
   color: rgba(52, 107, 167, 0.74);
+}
+
+blockquote p {
+  font-size: 1.5rem;
+}
+
+blockquote .fa-quote-left {
+  padding-right: .3em;
+}
+
+blockquote .fa-quote-right {
+  padding-left: .3em;
+}
+
+blockquote .author {
+  font-size: 1.2rem;
+  color: #FF6978;
+  text-align: right;
 }
 
 /* Interior Pages */
@@ -413,4 +441,10 @@ blockquote {
 
 .project-description .links a:first-child {
   padding-right: .3em;
+}
+
+@media (max-width: 740px) {
+  .path span {
+    white-space: normal;
+  }
 }
