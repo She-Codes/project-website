@@ -51,7 +51,7 @@ label[for="menu"] i {
 }
 
 .home label[for="menu"] i {
-  color: #FFEA80;
+  color: #FFF760;
   -webkit-animation: menu-icon 7s linear infinite;
   animation: menu-icon 7s linear infinite;
 }
@@ -402,7 +402,8 @@ blockquote .author {
 .project-page h1, 
 .project-description h2,
 .project-description .links a:hover,
-.project-description .links a:active {
+.project-description .links a:active,
+.project-page label[for="menu"] i {
   color: #FF6978;
 }
 
@@ -439,6 +440,16 @@ blockquote .author {
 
 .project-2 .screen {
   background: url('../images/button-component-screenshot.png') no-repeat;
+  background-size: cover;
+}
+
+.project-3 .screen {
+  background: url('../images/profile-card-screenshot.png') no-repeat;
+  background-size: cover;
+}
+
+.project-4 .screen {
+  background: url('../images/forms-screenshot.png') no-repeat;
   background-size: cover;
 }
 
