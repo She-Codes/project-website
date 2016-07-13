@@ -403,7 +403,8 @@ blockquote .author {
 .project-description h2,
 .project-description .links a:hover,
 .project-description .links a:active,
-.project-page label[for="menu"] i {
+.project-page label[for="menu"] i,
+.forms-list a {
   color: #FF6978;
 }
 
@@ -518,12 +519,30 @@ blockquote .author {
   display: inline-block;
   color: #FFF;
   font-size: 2.5rem;
-  -webkit-transition: color 1s;
+  -webkit-transition: color .3s;
   transition: color .3s;
 }
 
 .project-description .links a:first-child {
   padding-right: .3em;
+}
+
+.forms-list {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.forms-list a {
+  text-decoration: none;
+  line-height: 1.35;
+   -webkit-transition: color .15s;
+  transition: color .1s;
+}
+
+.forms-list a:hover,
+.forms-list a:active {
+  color: #FFF;
 }
 
 @media (max-width: 740px) {
